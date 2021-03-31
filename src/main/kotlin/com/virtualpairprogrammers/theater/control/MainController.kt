@@ -61,7 +61,7 @@ class MainController {
         val booking = bookingService.ReserveSeat(bean.seat!!, bean.performance!!, bean.customerName)
         return ModelAndView("bookingConfirmed","booking",booking)
     }
-
+//run once to enter data into seat table
 //    @RequestMapping("bootstrap")
 //        fun createinitialData() : ModelAndView {
 //        //create the data and save it to the database
