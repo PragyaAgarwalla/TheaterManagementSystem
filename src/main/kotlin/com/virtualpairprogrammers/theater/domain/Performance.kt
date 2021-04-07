@@ -7,6 +7,6 @@ data class Performance(
             @Id @GeneratedValue(strategy = GenerationType.AUTO)
             val id : Long,
             val title : String) {
-    @OneToMany(mappedBy = "performance")
-    lateinit var bookings : List<Booking>
+//    @OneToMany(mappedBy = "performance")
+//    lateinit var bookings : List<Booking>
 }
